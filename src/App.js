@@ -6,47 +6,7 @@ import React from 'react';
 import { computeHeadingLevel } from '@testing-library/react';
 import MovieCard from './movieCard';
 
-// 1st solu start
 
-// const Person=(props)=>{
-//   return(
-//     <>
-//     <h1>name:{props.name}</h1>
-//     <h2>lastname:{props.lastname}</h2>
-//     <h2>age:{props.age}</h2>
-
-//     </>
-//   )
-// }
-
-// const App=()=> {
-//   return (
-//     <div className="App">
-//       <h1>hello </h1>
-//       <Person name='shivam' lastname='panwar' age={23}/>
-//       <Person name='viraj' lastname='befkoof' age={22}/>
-
-//     </div>
-//   );
-// }
-// 1st solu end
-
-
-
-// 2nd solution start
-// const App = () => {
-//   const[counter ,setcounter] = useState(0);
-
-//   return (
-//     <div className="App">
-//       <button onClick={() => setcounter((prevCount)=>prevCount -1)}>-</button>
-//         <h>{counter}</h>
-//         <button onClick={() => setcounter((prevCount)=>prevCount + 1)}>+</button>
-
-//     </div>
-//   );
-// }
-// 2nd solution end
 
 const API_URL = 'http://www.omdbapi.com?apikey=b9b5988c';
 const movie1 = {
